@@ -1,0 +1,356 @@
+body,html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+* *::before *::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    
+    
+}
+main{
+    background-color: #ffffff;
+    width: 93vw;
+    
+}
+
+.page-1{
+    /* background-color: #ffffff; */
+    margin-top: 4rem;
+    background-image: url("./assets/img/watches.jpg");
+    background-repeat: no-repeat;
+     background-position-x: 54rem;
+     background-position-y: 4rem;
+     background-size: 50rem;
+     height: 100vh;
+
+    
+}
+ .home{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15rem;
+    justify-content: space-between;
+    margin-right: 13rem ;
+    color:  rgb(97, 93, 93);
+} 
+.info span:hover{
+    border-bottom:1px solid gray ;
+    padding-bottom: 0.4rem;
+    height: 1rem;
+    
+}
+img{
+    height: 4rem;
+ }
+.info{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+} 
+.input{
+    border: none;
+    outline: none;
+    border-bottom: 0.2px solid gray;
+    /* width: 0.2rem; */
+}
+.part{
+    margin-left: 15rem;
+    margin-top: 13rem; 
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-end;
+    flex-direction: column;
+}
+.calls{
+    font-weight: 700;
+    font-size: 3rem;
+    
+}
+.call-info{
+    display: flex;
+   
+}
+.space{
+    border-left: 3px solid gray;
+    height: 4rem;
+    /* width: 5rem; */
+}
+.call{
+    font-weight: 600;
+    margin-left: 1.7rem;
+    max-width: 450px;
+    font-size: 14px;
+    color: gray;
+    /* width: 1rem; */
+    /* margin-right: 1.3rem; */
+}
+.part{
+    /* margin-top: 1rem; */
+    /* margin-left: 4rem; */
+}
+.part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+     
+    /* margin-right: 2rem; */
+    /* margin-left: 0.5rem; */
+}
+
+button.keynote{
+    /* padding: rem; */
+    color: white;
+    margin-top: 2rem;
+    background-color: red;
+    padding: 0.7rem;
+    border-color: red;
+
+
+}
+.bord{
+    border-bottom: 0.5px solid rgb(184, 183, 183);
+    /* height: 1rem; */
+    margin-top: 11.8rem;
+}
+
+.page-2{
+    background-color: #ffffff;
+    /* margin-top: 3rem; */
+    margin-bottom: 7rem;
+    /* overflow: auto;  */
+ }
+.run{
+    display: flex;
+    margin-top: 7rem;
+    column-gap: 7rem;
+    margin-left: 15rem; 
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+.run-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.dotter{
+    display: flex;
+    gap:1rem;
+    /* justify-content: space-between; */
+    
+}
+.dot{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-color: rgb(202, 198, 198);
+    /* font-weight: 500; */
+}
+.dott{
+    display: flex;
+}
+.spacee{
+    border-bottom: 2px solid red;
+    height: 1rem;
+    width: 2rem;
+    /* margin: 0; */
+}
+.more{
+    color: red;
+    margin-left: 1rem;
+    font-weight: 600;
+
+}
+.content-1{
+    font-weight: 600;
+    max-width: 55rem;
+    font-size: 14px;
+    color: gray;
+}
+.content-2{
+    font-weight: 600;
+    max-width: 50rem;
+    font-size: 14px;
+    color: gray;
+}
+.content-3{
+    font-weight: 600;
+    max-width: 50rem;
+    font-size: 14px;
+    color: gray;
+}
+.header{
+    font-weight: 500;
+    max-width: 30rem;
+    font-size: 1.2rem;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part-2{
+    margin-left: 15rem;
+    margin-top: 8rem;
+}
+h2{
+    margin: 0;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.sport{
+    display: flex;
+}
+button.buy{
+    color: white;
+    margin-top: 1rem;
+    background-color: red;
+    padding: 0.5rem;
+    border-color: red;
+
+}
+.preview{
+    height: 30rem;
+    margin-right: 8rem;
+
+}
+.content-4{
+    font-weight: 500;
+    margin-left: 1.7rem;
+    max-width: 22rem;
+    font-size: 12px;
+    color: gray;
+   
+}
+.page-3{
+    background-image: url("./assets/img/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    background-position-y: -8rem;
+    /* margin-top: 10rem; */
+
+    /* background-position: -16rem; */
+    /* height: fit-content; */
+    /* width: 93vw; */
+    /* overflow: auto; */
+}
+.part-3{
+    align-self: center;
+    color: #ffffff;
+    margin-right: 13rem;
+    margin-top: 6rem;
+    max-width: 30rem;
+
+}
+.health{
+    /* margin-top: 7rem; */
+}
+.gps{
+    display: flex; 
+    
+}
+.content-5{
+    font-weight: 900;
+    margin-left: 1.6rem;
+    max-width: 28rem;
+    font-size: 14px;
+    color: whitesmoke;
+   
+}
+.spaces{
+    border-left: 3px solid whitesmoke;
+    height: 7rem;
+    
+}
+button.features{
+    color: white;
+    margin-top: 1rem;
+    background-color: red;
+    padding: 0.5rem;
+    border-color: red;   
+}
+
+
+@media (max-Width:1000px){
+    .page-1{
+        background-color: #ffffff;
+        margin-top: 4rem;
+    }
+    main{
+        background-color: #ffffff;
+        width: 100vw;
+
+    }
+    .page-1{
+        /* background-color: #ffffff; */
+        margin-top: 4rem;
+        background-image: url("./assets/img/watches.jpg");
+        background-repeat: no-repeat;
+         background-position-x: 44rem;
+         background-position-y: 8rem;
+         background-size: 35rem;
+         height: 100vh;
+    
+        
+    }
+    .part{
+        margin-left: 6rem;
+        margin-top: 8rem; 
+        display: flex;
+        align-items: flex-start;
+        justify-items: flex-end;
+        flex-direction: column;
+    }
+    .bord{
+        margin-top: 9rem;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: row;
+        margin-left: 6rem;
+        justify-content: space-between;
+        margin-right: 13rem ;
+        color:  rgb(97, 93, 93);
+    }
+    .preview{
+        height: 30rem;
+        margin-right: 8rem;
+    } 
+
+    .page-3{
+        background-image: url("./assets/img/runners.jpg");
+         background-repeat: no-repeat; 
+        background-size: cover; 
+        display: flex;
+        justify-content: flex-end;
+       
+}
+.part-3{
+    align-self: center;
+    color: #ffffff;
+    margin-right: 3rem;
+    margin-top: 6rem;
+    max-width: 30rem;
+
+}
+
+/* height: 90vh;
+width: 100%;
+
+
+/* align-items:center; */
+background-position-y: -8rem;
+
+} */
